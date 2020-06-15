@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Healcap-Qt Unit test
+Comment=Healcap P2P gaming related cryptocurrency - UNITTEST
+Comment[fr]=Healcap unittest, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Healcap unittest, eşten eşe kriptografik sanal para birimi
+Exec=hcap-qt --unittest %u
+Terminal=false
+Type=Application
+Icon=hcap128-unittest
+MimeType=x-scheme-handler/hcap;
+Categories=Office;Finance;

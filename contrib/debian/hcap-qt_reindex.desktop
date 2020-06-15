@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Healcap-Qt (Reindex)
+Comment=Healcap P2P gaming related cryptocurrency
+Comment[fr]=Healcap, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Healcap, eşten eşe kriptografik sanal para birimi
+Exec=hcap-qt --reindex %u
+Terminal=false
+Type=Application
+Icon=hcap128
+MimeType=x-scheme-handler/hcap;
+Categories=Office;Finance;

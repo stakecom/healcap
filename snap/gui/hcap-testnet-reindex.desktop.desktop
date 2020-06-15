@@ -1,0 +1,16 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=3.0.0
+Encoding=UTF-8
+Name=Healcap Qt Testnet (reindex)
+Icon=${SNAP}/hcap128testnet.png
+MimeType=x-scheme-handler/hcap;
+Exec=hcap %u --testnet --reindex
+Terminal=false
+Categories=Office;Finance;Cryptocurrency;
+Comment=🗺️Healcap Digital Currency QT (Testnet) (reindex) 👯👯 👛 (by 🐼CEVAP🐼) CE source code (Community Edition)
+Keywords=internet;hcap;testnet;qt;crypto;currency;snap;snapcraft;reindex;
+Name[de_DE]=hcap-testnet-reindex.desktop.desktop
+

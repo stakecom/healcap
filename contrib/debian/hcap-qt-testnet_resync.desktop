@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Healcap-Qt Testnet (Resync)
+Comment=Healcap P2P gaming related cryptocurrency - TESTNETWORK
+Comment[fr]=Healcap testnet, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Healcap testnet, eşten eşe kriptografik sanal para birimi
+Exec=hcap-qt --testnet --resync %u
+Terminal=false
+Type=Application
+Icon=hcap128-testnet
+MimeType=x-scheme-handler/hcap;
+Categories=Office;Finance;

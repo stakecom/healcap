@@ -1,0 +1,26 @@
+[Unit]
+Description=Healcap's distributed currency daemon
+After=network.target
+
+[Service]
+User=hcap
+Group=hcap
+
+Type=forking
+PIDFile=/var/lib/hcapd/hcapd.pid
+
+ExecStart=/usr/bin/hcapd -daemon -pid=/var/lib/hcapd/hcapd.pid \
+          -conf=/etc/hcap/Sealcapcoin.conf -datadir=/var/lib/hcapd
+
+ExecStop=-/usr/bin/hcap-cli -conf=/etc/hcap/Sealcapcoin.conf \
+         -datadir=/var/lib/hcapd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

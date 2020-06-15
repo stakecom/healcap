@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Healcap-Qt Regtest
+Comment=Healcap P2P gaming related cryptocurrency - REGTEST
+Comment[fr]=Healcap regtest, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Healcap regtest, eşten eşe kriptografik sanal para birimi
+Exec=hcap-qt --regtest %u
+Terminal=false
+Type=Application
+Icon=hcap128-regtest
+MimeType=x-scheme-handler/hcap;
+Categories=Office;Finance;
